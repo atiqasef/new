@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.full-website{
+    max-width: 1024px;
+    margin: auto;
+}
+
+
+/* Header Menu Start */
+header {
+    background-color: #f1c40f;
+    padding: 30px;
+}
+.logo{
+    float: left;
+}
+.logo img {
+    width: 60px;
+    height: 45px;
+    margin-top: -24px;
+    margin-left: 50px;
+}
+.menu{
+    float: right;
+}
+.menu ul {
+    margin-top: -17px;
+    margin-right: 55px;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: all .4s ease;
+    
+}
+.menu ul li a:hover{
+    letter-spacing: 2px;
+    color: #34495e;
+}
+/* Header Menu End */
+
+
+
+/* Banner Section Start */
+
+.banner{
+    background-image: url(./72e62198095a1c36038869ddf05481f7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 400px;
+    width: 100%;
+}
+.banner h1 {
+    color: #fff;
+    text-align: center;
+    padding: 90px 0 26px 0px;
+    font-size: 40px;
+    
+}
+.banner h4{
+    font-family: 'Combo', cursive;
+    text-align: center;
+    color: #fff;
+    word-spacing: 20px;
+}
+
+
+/* Banner Section End */
+
+
+/* Product Section Start */
+
+.product{
+    background-color: #bdc3c7;
+    padding: 50px 0;
+}
+.product h2 {
+    color: #fff;
+    padding: 60px 0 50px 0;
+    text-align: center;
+}
+.all img{
+    height: 170px;
+    width: 250px;
+    margin-left: 20px;
+    
+}
+.all{
+    display: inline-block;
+    overflow: hidden;
+    transition: all .4s ease;
+    width: 24%;
+}
+.all:hover{
+    transform: scale(1.2);
+    
+}
+/* Product Section End */
+
+
+/* MemberShip Section Start */
+
+.membership{
+    background-color: #57606f;
+    height: 400px;
+    width: 100%;
+}
+.intro{
+    float: left;
+    width: 70%;
+}
+.form{
+    float: right;
+    width: 30%;
+}
+.pic{
+    float: left;
+    width: 30%;
+}
+.pic img {
+    height: 170px;
+    width: 215px;
+    margin: 100px 30px;
+    display: inline-block;
+}
+.about{
+    float: right;
+    width: 70%;
+}
+.about p {
+    color: #fff;
+    margin-left: 60px;
+    margin-top: 120px;
+    line-height: 35px;
+}
+.form h3 {
+    margin-top: 75px;
+    margin-left: 43px;
+    color: #fff;
+}
+.notice{
+   
+}
+.notice li {
+    list-style: none;
+    color: #fff;
+    line-height: 45px;
+    margin-left: 45px;
+    border-bottom: 1px dashed #ddd;
+}
+/* MemberShip Section End */
+
+/* End Section Start */
+.end{
+    text-align: center;
+}
+.end p{
+    padding: 15px;
+    color: #fff;
+    background-color: #000;
+}
+/* End Section End */
